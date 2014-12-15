@@ -22,6 +22,7 @@
         position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
     }
 </style>
+<link href="css/hover.css" rel="stylesheet" media="all">
 </head>
 <body <?php body_class(); ?>>
 <?php if(is_home()){$wrap_class = "home-site";}else{$wrap_class = "site";}?>
